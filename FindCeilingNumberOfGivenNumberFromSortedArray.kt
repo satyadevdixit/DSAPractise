@@ -8,27 +8,27 @@
 * 2:- then from these greater numbers find smallest number.
 * */
 
-fun main(args: Array<String>) {
+fun main() {
 println(findCeilingNumberOrGivenNumber(insertDataInArray(),24))
 }
 
 
-fun findCeilingNumberOrGivenNumber(givenArray: Array<Int?>,givenNumber: Int):Int?
+fun findCeilingNumberOrGivenNumber(nums: IntArray,target: Int):Int
 {
-    var startingIndex:Int = 0
-    var endingIndex:Int = givenArray.size -1
-if (givenArray[givenArray.size-1]!! <givenNumber)
+    var startingIndex = 0
+    var endingIndex:Int = nums.size -1
+if (nums[nums.size-1] <target)
 {
     return -1
 }
     while (startingIndex<=endingIndex)
     {
-        var midIndex = (startingIndex + endingIndex)/2
-        if (givenArray[midIndex]==givenNumber)
+        val midIndex = (startingIndex + endingIndex)/2
+        if (nums[midIndex]==target)
         {
-            return givenArray[midIndex]
+            return nums[midIndex]
         }
-         if (givenArray[midIndex]!!>givenNumber)
+         if (nums[midIndex]>target)
         {
             endingIndex = midIndex - 1
         }
@@ -36,26 +36,26 @@ if (givenArray[givenArray.size-1]!! <givenNumber)
             startingIndex = midIndex + 1
         }
     }
-    return givenArray[endingIndex]
+    return nums[endingIndex]
 }
 
 
-fun findCeilingNumber(givenArray: Array<Int?>,givenNumber: Int):Int?
+fun findCeilingNumber(nums: IntArray,target: Int):Int
 {
-    var startingIndex:Int = 0
-    var endingIndex:Int = givenArray.size -1
-    if (givenArray[givenArray.size-1]!! <givenNumber)
+    var startingIndex = 0
+    var endingIndex:Int = nums.size -1
+    if (nums[nums.size-1] <target)
     {
         return -1
     }
     while (startingIndex<=endingIndex)
     {
-        var midIndex = (startingIndex + endingIndex)/2
-        if (givenArray[midIndex]==givenNumber)
+        val midIndex = (startingIndex + endingIndex)/2
+        if (nums[midIndex]==target)
         {
             endingIndex =  midIndex -1
         }
-        if (givenArray[midIndex]!!>givenNumber)
+       else if (nums[midIndex]>target)
         {
             endingIndex = midIndex - 1
         }

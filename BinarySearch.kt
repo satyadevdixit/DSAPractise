@@ -5,19 +5,19 @@ fun main(args: Array<String>) {
 }
 
 
-fun executeBinarySearch(givenArray: Array<Int?>,givenNumber: Int):Boolean
+fun executeBinarySearch(nums: IntArray,target: Int):Boolean
 {
-    var startingIndex:Int = 0
-    var endingIndex:Int = givenArray.size -1
+    var startingIndex = 0
+    var endingIndex:Int = nums.size -1
 
     while (startingIndex<=endingIndex)
     {
-        var midIndex = (startingIndex + endingIndex)/2
-        if (givenArray[midIndex]==givenNumber)
+        val midIndex = (startingIndex + endingIndex)/2
+        if (nums[midIndex]==target)
         {
             return true
         }
-        else if (givenArray[midIndex]!!>givenNumber)
+        else if (nums[midIndex]>target)
         {
                 endingIndex = midIndex -1
         }
