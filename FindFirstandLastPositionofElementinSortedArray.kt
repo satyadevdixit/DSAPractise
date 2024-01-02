@@ -37,11 +37,11 @@ fun binarySearch(nums: IntArray,target: Int,startIndex:Int,endIndex:Int):Int
     while (startIndex<=endIndex)
     {
         midIndex = (startIndex + endIndex)/2
-  if (nums[midIndex]==target)
+  if (midIndex>=0 && nums[midIndex]==target)
       return midIndex
-  else if (nums[midIndex]<target)
+  else if (midIndex>=0 && nums[midIndex]<target)
       startIndex = midIndex +1
-else if (nums[midIndex]>target)
+else if (midIndex>=0 && nums[midIndex]>target)
     endIndex = midIndex -1
     }
     return -1
