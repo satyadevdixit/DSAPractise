@@ -1,4 +1,4 @@
-// This program to find floor number for given number from sorted array.
+package Array// This program to find floor number for given number from sorted array.
 
 /*
 * Floor Number of given number means smaller or equal number to given number and greatest from array.
@@ -37,7 +37,7 @@ fun findFloorNumberOrGivenNumber(nums:IntArray,target: Int):Int
         }
 
     }
-    return nums[startingIndex]
+    return nums[endingIndex]
 }
 
 
@@ -65,6 +65,6 @@ fun findFloorNumber(nums: IntArray,target: Int):Int
         }
 
     }
-    return startingIndex
+    return nums[endingIndex]
 }
 

@@ -1,3 +1,7 @@
+package Searching
+
+import Array.insertDataInArray
+
 // This program for Binary Search.
 
 fun main(args: Array<String>) {

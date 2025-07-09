@@ -1,8 +1,8 @@
-// This Program for insert data in array
+package Array// This Program for insert data in array
 
 fun insertDataInArray():IntArray
 {
-    val nums = IntArray(3)
+    val nums = IntArray(8)
     var reversecounter = 4
     for (arrayIndex in 0 ..   4)
     {
@@ -13,14 +13,14 @@ fun insertDataInArray():IntArray
     // [1,2,3]
 
     nums[0] = 1
-    nums[1] = 2
-    nums[2] = 3
-/*    nums[3] = 4
-    nums[4] = 2
-  nums[5] = 1
-    nums[6] = 2
-    nums[7] = 3
-    nums[8] = 1
+    nums[1] = 22
+    nums[2] = 30
+    nums[3] = 44
+    nums[4] = 58
+    nums[5] = 61
+    nums[6] = 79
+    nums[7] = 90
+   /* nums[8] = 1
     nums[9] = 1
     nums[10] = 1
     nums[11] = 1
@@ -33,7 +33,7 @@ fun insertDataInArray():IntArray
     nums[18] = 1*/
 
 
-   // printarray(nums,0,nums.size-1)
+   // Array.printarray(nums,0,nums.size-1)
 
     return nums
 }

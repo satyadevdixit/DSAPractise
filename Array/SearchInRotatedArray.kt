@@ -1,4 +1,4 @@
-// This Program is for search element in rotated array.
+package Array// This Program is for search element in rotated array.
 
 fun main()
 {

@@ -1,4 +1,4 @@
-// This program to Find position of element in Infinite Sorted Array
+package Array// This program to Find position of element in Infinite Sorted Array
 // Do not use length or size of Array
 
 

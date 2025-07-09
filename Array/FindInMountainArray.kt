@@ -1,4 +1,4 @@
-// This Program is for found element in Mountain Array.
+package Array// This Program is for found element in Mountain Array.
 
 class MountainArray {
          fun get(index: Int): Int {
@@ -34,7 +34,7 @@ fun findInMountainArray(target: Int, givenArray: IntArray): Int
         }
         else
             return binarySearch(givenArray,target,peakIndex+1,givenArray.size-1)
-       //     return binarySearchReverseOrder(givenArray,target,peakIndex+1,givenArray.size-1)
+       //     return Array.binarySearchReverseOrder(givenArray,target,peakIndex+1,givenArray.size-1)
     }
 
     return -1
