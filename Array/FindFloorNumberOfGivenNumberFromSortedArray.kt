@@ -10,7 +10,7 @@ package Array// This program to find floor number for given number from sorted a
 * */
 
 fun main() {
-    println(findFloorNumberOrGivenNumber(insertDataInArray(),26))
+    println(findFloorNumberOrGivenNumber(getArrayData(),26))
 }
 
 fun findFloorNumberOrGivenNumber(nums:IntArray,target: Int):Int

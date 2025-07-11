@@ -12,7 +12,7 @@ class MountainArray {
 
 fun main()
 {
-    println(findInMountainArray(0,insertDataInArray(),))
+    println(findInMountainArray(0,getArrayData(),))
 }
 
 

@@ -6,8 +6,8 @@ package Array// This program to Find First and Last Position of Element in Sorte
  * */
 
 fun main() {
-    val lastIndex = findFirstLastPosition(insertDataInArray(),8).size-1
-    printarray(findFirstLastPosition(insertDataInArray(),8),0,lastIndex)
+    val lastIndex = findFirstLastPosition(getArrayData(),8).size-1
+    printarray(findFirstLastPosition(getArrayData(),8),0,lastIndex)
 }
 
 fun findFirstLastPosition(nums: IntArray,target: Int): IntArray

@@ -1,13 +1,11 @@
 package Array
 
-import kotlin.math.min
-
 /* This function for find difference between Max and Min number of Array
 * https://www.youtube.com/watch?v=8erugyv3WDA&list=PL-Jc9J83PIiFj7YSPl2ulcpwy-mwj1SSk&index=93  */
 
 fun  main()
 {
-var array = insertDataInArray()
+var array = getArrayData()
     findDifferenceOfMaxAndMinOfArray(array)
 
 }

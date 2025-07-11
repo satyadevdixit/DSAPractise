@@ -4,7 +4,7 @@ package Array// This program to Find position of element in Infinite Sorted Arra
 
 fun main()
 {
-    println(findElementPositionInSortedInfiniteArray(insertDataInArray(),21))
+    println(findElementPositionInSortedInfiniteArray(getArrayData(),21))
 }
 
 fun findElementPositionInSortedInfiniteArray(givenArray: IntArray, target:Int):Int

@@ -1,7 +1,7 @@
 package Array// This Program is for find Mountain peak element in Array.
 
 fun main(){
-println(findMountainPeakElementInArray(insertDataInArray()))
+println(findMountainPeakElementInArray(getArrayData()))
 }
 
 

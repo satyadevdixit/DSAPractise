@@ -2,7 +2,7 @@ package Array// This Program is for find array is sorted and rotated.
 
 fun main()
 {
-    println(findArrayIsRotatedAndSorted(insertDataInArray()))
+    println(findArrayIsRotatedAndSorted(getArrayData()))
 }
 
 fun findArrayIsRotatedAndSorted(nums:IntArray):Boolean

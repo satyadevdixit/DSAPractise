@@ -1,11 +1,11 @@
 package Searching
 
-import Array.insertDataInArray
+import Array.getArrayData
 
 // This program for Binary Search.
 
 fun main(args: Array<String>) {
-    println(executeBinarySearch(insertDataInArray(),30))
+    println(executeBinarySearch(getArrayData(),30))
 }
 
 

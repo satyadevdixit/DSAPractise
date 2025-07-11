@@ -10,7 +10,7 @@ package Array// This program to find ceiling number for given number from sorted
 * */
 
 fun main() {
-println(findCeilingNumber(insertDataInArray(),24))
+println(findCeilingNumber(getArrayData(),24))
 }
 
 
